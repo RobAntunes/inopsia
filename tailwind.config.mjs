@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				moiser: ["Moiser", "sans-serif"]
+				moiser: ["Moiser", "sans-serif"],
+				felix: ["Felix", "sans-serif"]
 			}
 		},
 	},

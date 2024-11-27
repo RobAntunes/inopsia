@@ -1,24 +1,35 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Inopsia">
-	<main class="h-[100vh] font-moiser bg-black">
-		<div class="flex justify-center items-center h-full flex-col">
-			<div class="text-center">
-				<h1 class="lg:text-[15rem] md:text-[10rem] text-[6rem] text-[#FC7B25]">Inopsia</h1>
-				<h2 class="text-white lg:text-[3rem] md:text-[2rem] text-[1.5rem] leading-7">Nurturing futures, building dreams</h2>
-			</div>
-		</div>
-	</main>
+  <main class="h-[100vh] bg-black">
+    <div class="flex justify-center items-center h-full flex-col">
+      <div class="text-center">
+        <h1 class="lg:text-[15rem] font-moiser md:text-[10rem] text-[6rem] text-[#FC7B25]">
+          Inopsia
+        </h1>
+        <h2
+          class="font-felix text-white lg:text-[3rem] md:text-[2rem] text-[1.5rem] leading-7"
+        >
+          Nurturing futures, building dreams
+        </h2>
+      </div>
+    </div>
+  </main>
 </Layout>
 
 <style is:global>
-  		@font-face {
-    		font-family: 'Moiser';
-    		font-style: normal;
-    		font-weight: 400;
-    		font-display: swap;
-    		src: url(/fonts/Moiser.ttf) format('truetype');
+  @font-face {
+    font-family: "Moiser";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Moiser.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Felix";
+    src: url("/fonts/Fellix-Regular.woff2") format("woff2");
   }
 </style>
